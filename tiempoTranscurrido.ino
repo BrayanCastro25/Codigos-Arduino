@@ -7,7 +7,7 @@ void setup() {
 
 void loop() {
   tiempo1 = millis();
-  delay(1000);
+  delay(1000); // Tramo de código que requiere contabilizar el tiempo.
   tiempo2 = millis();
   tiempo = tiempo2 - tiempo1;
   Serial.println(tiempo);
